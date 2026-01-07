@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #0d0d2b;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.units select {
+  background-color: #1a1a3d;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+}
+
+/* Title */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  background-color: #1a1a3d;
+  color: #fff;
+}
+
+.search-bar button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #5c4fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Weather Card */
+.weather-card {
+  flex: 2;
+  background: linear-gradient(135deg, #4b3bff, #6c5bff);
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.weather-card .location {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.weather-card .date {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #d1d1e0;
+}
+
+.weather-card .weather-temp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.weather-card .weather-temp .icon {
+  font-size: 2rem;
+}
+
+.weather-card .weather-temp .temp {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.weather-card .details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.daily-forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.daily-forecast .day {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* Hourly Forecast */
+.hourly-forecast {
+  flex: 1;
+  background-color: #1a1a3d;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.hourly-forecast .title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.hourly-forecast select {
+  width: 100%;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #0d0d2b;
+  color: #fff;
+}
+
+.hours .hour {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  background-color: #0d0d2b;
+  border-radius: 5px;
+}

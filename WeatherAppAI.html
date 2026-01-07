@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Now</title>
+  <link rel="stylesheet" href="WeatherAppAI.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">☀️ Weather Now</div>
+      <div class="units">
+        <select>
+          <option>°C</option>
+          <option>°F</option>
+        </select>
+      </div>
+    </header>
+
+    <h1>How's the sky looking today?</h1>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search for a place...">
+      <button>Search</button>
+    </div>
+
+    <div class="main-content">
+      <div class="weather-card">
+        <div class="location">Berlin, Germany</div>
+        <div class="date">Tuesday, Aug 6, 2025</div>
+        <div class="weather-temp">
+          <div class="icon">☀️</div>
+          <div class="temp">20°</div>
+        </div>
+        <div class="details">
+          <div>Feels Like: 18°</div>
+          <div>Humidity: 46%</div>
+          <div>Wind: 14 km/h</div>
+          <div>Precipitation: 0 mm</div>
+        </div>
+        <div class="daily-forecast">
+          <div class="day">
+            <div>Tue</div>
+            <div>🌤️</div>
+            <div>20°</div>
+          </div>
+          <div class="day">
+            <div>Wed</div>
+            <div>🌤️</div>
+            <div>21°</div>
+          </div>
+          <div class="day">
+            <div>Thu</div>
+            <div>☁️</div>
+            <div>19°</div>
+          </div>
+          <div class="day">
+            <div>Fri</div>
+            <div>🌦️</div>
+            <div>22°</div>
+          </div>
+          <div class="day">
+            <div>Sat</div>
+            <div>🌧️</div>
+            <div>18°</div>
+          </div>
+          <div class="day">
+            <div>Sun</div>
+            <div>🌤️</div>
+            <div>23°</div>
+          </div>
+          <div class="day">
+            <div>Mon</div>
+            <div>☁️</div>
+            <div>20°</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hourly-forecast">
+        <div class="title">Hourly forecast</div>
+        <select>
+          <option>Tuesday</option>
+        </select>
+        <div class="hours">
+          <div class="hour"><div>3 PM</div><div>20°</div></div>
+          <div class="hour"><div>4 PM</div><div>20°</div></div>
+          <div class="hour"><div>5 PM</div><div>20°</div></div>
+          <div class="hour"><div>6 PM</div><div>20°</div></div>
+          <div class="hour"><div>7 PM</div><div>20°</div></div>
+          <div class="hour"><div>8 PM</div><div>20°</div></div>
+          <div class="hour"><div>9 PM</div><div>20°</div></div>
+          <div class="hour"><div>10 PM</div><div>20°</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="WeatherAppAI.js"></script>
+
+</body>
+</html>
